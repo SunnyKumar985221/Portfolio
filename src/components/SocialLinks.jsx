@@ -22,7 +22,7 @@ const SocialLinks = () => {
           Call Now <FaPhone size={30} />
         </>
       ),
-      href: "tel:9852211257",
+      href: "tel:8252126442",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:sunnyrajpcs84@gmail.com",
+      href: "mailto:sunnyrajpcs842@gmail.com",
     },
     {
       id: 4,

@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import './components/about.css'
+import Certification from "./components/Certification";
 function App() {
  
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      <Certification/>
       <Contact />
 
       <SocialLinks />

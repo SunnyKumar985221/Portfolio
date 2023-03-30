@@ -13,14 +13,9 @@ const About = () => {
             About
           </p>
         </div>
-
-        
         <p className="text-xl mt-20">
-        As a full stack developer with over 2+ years of experience in the industry, I have a strong foundation in both front-end and back-end development. I am skilled in a variety of modern technologies, including React.js, node.js, and many more. I have experience building and maintaining both web responsive applications.
-        I completed my Engineering degree from the National Institute of Technology Sikkim in the academic year 2017-2021,
-        and am a certified front-end developer in React by Coursera, and I have many certifications in the field of full stack development, such as a JavaScript beginner certification.
-         In my free time, I enjoy staying up-to-date with the latest trends and technologies in the field, and am always looking for ways to expand my skillset.
-        </p>
+        As a Full Stack Developer with more then 2.5 years of experience, I have honed my skills working on various projects with the latest technologies. I pride myself on my ability to deliver top-notch solutions that exceed my clients' expectations. I have the experience in designing and developing complex web applications using modern technologies such as HTML5, CSS3, JavaScript, React, and Node.js. I have a strong understanding of responsive design principles and UX best practices. Throughout my career, I have demonstrated a proven ability to work effectively in fast-paced environments and collaborate with cross-functional teams to deliver high-quality projects on time and within budget. I am passionate about staying up-to-date with the latest industry trends and technologies, and I am always looking for opportunities to improve my skills and take on new challenges
+       </p>
         
 
         <br />
