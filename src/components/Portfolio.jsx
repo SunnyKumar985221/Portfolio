@@ -43,7 +43,7 @@ const Portfolio = () => {
             <div className="card-body">
               <h5 className="card-title port2">Tourism Website</h5>
               <p className="card-text p-2">This platform provides guidance and ideas for exploring Egypt's. It belongs to a travel agency that offers tailored packages, enriching the Egyptian experience and providing insights into the culture of Egypt</p>
-              <Link onClick={() => window.open("https://www.bugendaitech.com/", "_blank")} className="btn btn-primary text-light">Visit Website</Link>
+              <Link onClick={() => window.open("https://www.egyptiarutours.com/", "_blank")} className="btn btn-primary text-light">Visit Website</Link>
             </div>
           </div>
           <div className="card" data-aos="fade-left" data-aos-duration="1500" style={{ width: "24rem" }}>
@@ -62,7 +62,7 @@ const Portfolio = () => {
             <div className="card-body">
               <h5 className="card-title port2">Company Website</h5>
               <p className="card-text p-2">This platform provides information about the company's dynamic working culture, services provided, upcoming events , last year achievement and the range of services offered by the company.</p>
-              <Link onClick={() => window.open("https://www.egyptiarutours.com/", "_blank")} className="btn btn-primary text-light">Visit Website</Link>
+              <Link onClick={() => window.open("https://www.bugendaitech.com/", "_blank")} className="btn btn-primary text-light">Visit Website</Link>
             </div>
           </div>
 
