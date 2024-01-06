@@ -9,6 +9,12 @@ import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import c from "../assets/c.png";
+import next from "../assets/next.png";
+// import grap from "../assets/graphql.png";
+import aws from "../assets/aws.png";
+import ts from "../assets/ts.png";
+import git from "../assets/git.png";
+import express from "../assets/express.png";
 import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
@@ -52,14 +58,56 @@ const Experience = () => {
       src: tailwind,
       title: "Node",
       aos: "fade-up",
+      style: "shadow-green-400",
+    },
+    {
+      id: 10,
+      src: ts,
+      title: "TypeScript",
+      aos: "fade-left",
       style: "shadow-sky-400",
+    },
+    {
+      id: 11,
+      src: next,
+      title: "NextJs",
+      aos: "fade-right",
+      style: "shadow-green-400",
+    },
+    {
+      id: 12,
+      src: express,
+      title: "ExpressJs",
+      aos: "fade-down",
+      style: "shadow-green-400",
+    },
+    {
+      id: 13,
+      src: git,
+      title: "Git",
+      aos: "fade-left",
+      style: "shadow-green-400",
+    },
+    {
+      id: 14,
+      src: aws,
+      title: "AWS",
+      aos: "fade-right",
+      style: "shadow-white",
+    },
+    {
+      id: 15,
+      src: graphql,
+      title: "Graphql",
+      aos: "fade-down",
+      style: "shadow-pink-400",
     },
     {
       id: 6,
       src: nextjs,
       title: "MongoDB",
       aos: "fade-left",
-      style: "shadow-white",
+      style: "shadow-green-400",
     },
     {
       id: 7,
@@ -84,8 +132,9 @@ const Experience = () => {
     },
   ];
 
+
   return (
-    
+
     <div
       name="experience"
       className="exp_bg bg-gradient-to-b from-gray-800 to-black w-full"
@@ -93,10 +142,10 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto  flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-5xl font-bold border-b-4 border-gray-500 pt-20 text-center">
-            Experience
+            Skills
           </p>
           <p className="py-6 text-center text-3xl">These are the technologies I've worked with</p>
-        </div> 
+        </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, aos, style }) => (
@@ -111,7 +160,7 @@ const Experience = () => {
         </div>
       </div>
     </div>
-  
+
   );
 };
 

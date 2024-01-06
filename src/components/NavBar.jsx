@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import profile from "../images/profile.jpg"
 import "./about.css";
+
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
@@ -25,16 +26,18 @@ const NavBar = () => {
     },
     {
       id: 5,
+      link: "achievements",
+    },
+    {
+      id: 6,
       link: "contact",
     },
   ];
 
   return (
-   
-    <div className="mylogo flex justify-between items-center w-full h-20 pt-8 pb-10 px-4 text-white bg-black fixed z-20">
-      <div>
-      <h1 className="text-5xl flex font-signature ml-2 pt-2 sunny1"><span className="pt-4 pl-2 pb-2">Welcome to Sunny's Portfolio</span></h1>
-      </div>
+
+    <div className="navbar">
+      <span>Welcome to Sunny's Portfolio</span>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
