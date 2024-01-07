@@ -194,10 +194,12 @@
 
 .about .aboutCont p {
   flex: 1;
+  min-width: 320px;
 }
+
 .about .aboutCont div {
   flex: 0.3;
-  min-width: 200px;
+  min-width: 320px;
 }
 .about .aboutCont img {
   width: 100%;
