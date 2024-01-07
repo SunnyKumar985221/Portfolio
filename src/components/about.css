@@ -405,6 +405,7 @@
     rgba(60, 37, 88, 1) 35%,
     rgba(26, 29, 26, 1) 79%
   );
+  overflow-x: hidden;
 }
 .contact_bg {
   padding-top: 100px;
