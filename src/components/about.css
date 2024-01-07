@@ -590,6 +590,7 @@
   }
   .home div:first-child {
     font-size: 18px;
+    font-family: cursive;
   }
   .about .aboutCont {
     gap: 20px;
